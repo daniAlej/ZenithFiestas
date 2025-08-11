@@ -24,7 +24,7 @@ const ProductsSection = () => {
       description: "Piñatas artesanales, decoraciones temáticas de superhéroes, princesas y más.",
       color: "text-secondary",
       bgColor: "bg-secondary/10",
-      route: '/piñatas'   
+      route: '/pinatas'   
     },
     {
       icon: UtensilsCrossed,
