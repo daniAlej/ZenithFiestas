@@ -44,7 +44,7 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: "Teléfono",
-      content: "+52 (555) 123-4567",
+      content: "+593 996272566",
       action: "tel:+525551234567",
       actionText: "Llamar ahora"
     },
@@ -52,13 +52,13 @@ const ContactSection = () => {
       icon: MapPin,
       title: "Dirección",
       content: "Av. Principal 123, Centro, Ciudad de México",
-      action: "https://maps.google.com",
+      action: "https://maps.app.goo.gl/Xyr8XDEEjB1mKhau5",
       actionText: "Ver en mapa"
     },
     {
       icon: Clock,
-      title: "Horarios",
-      content: "Lun-Sáb: 9:00-19:00\nDom: 10:00-16:00",
+      title: "Horario",
+      content: "Lun-Dom: 9:00-19:00",
       action: null,
       actionText: null
     }
@@ -128,7 +128,7 @@ const ContactSection = () => {
               </p>
               <Button 
                 className="w-full bg-[#25D366] hover:bg-[#25D366]/90 text-white"
-                onClick={() => window.open('https://wa.me/525551234567?text=Hola, me gustaría información sobre productos para fiestas', '_blank')}
+                onClick={() => window.open('https://wa.me/593996272566?text=Hola, me gustaría información sobre productos para fiestas', '_blank')}
               >
                 <MessageCircle className="w-4 h-4 mr-2" />
                 Chatear en WhatsApp
@@ -152,85 +152,9 @@ const ContactSection = () => {
 
           {/* Contact Form */}
           <div>
-            <h3 className="text-2xl font-semibold text-foreground mb-8">
-              Envíanos un mensaje
-            </h3>
+            
 
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                    Nombre completo
-                  </label>
-                  <Input
-                    id="name"
-                    name="name"
-                    type="text"
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    placeholder="Tu nombre"
-                    required
-                    className="w-full"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
-                    Teléfono
-                  </label>
-                  <Input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    value={formData.phone}
-                    onChange={handleInputChange}
-                    placeholder="Tu teléfono"
-                    className="w-full"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                  Correo electrónico
-                </label>
-                <Input
-                  id="email"
-                  name="email"
-                  type="email"
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  placeholder="tu@email.com"
-                  required
-                  className="w-full"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                  Mensaje
-                </label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  placeholder="Cuéntanos sobre tu evento, qué tipo de fiesta planeas, cuántos invitados, etc."
-                  rows={5}
-                  required
-                  className="w-full resize-none"
-                />
-              </div>
-
-              <Button 
-                type="submit" 
-                className="w-full btn-party"
-                size="lg"
-              >
-                <Send className="w-4 h-4 mr-2" />
-                Enviar mensaje
-              </Button>
-            </form>
+            
 
             {/* Additional contact options */}
             <div className="mt-8 p-6 bg-muted/30 rounded-xl">
@@ -240,8 +164,7 @@ const ContactSection = () => {
               </h4>
               <div className="space-y-2 text-sm text-muted-foreground">
                 <p>📧 Email: info@zenithpartystore.com</p>
-                <p>📱 WhatsApp Business: +52 (555) 123-4567</p>
-                <p>📞 Teléfono fijo: +52 (55) 5123-4567</p>
+                <p>📱 WhatsApp Business: +593 996272566</p>
               </div>
             </div>
           </div>

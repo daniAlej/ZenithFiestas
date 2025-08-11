@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ProductsPage from "./pages/ProductsPage";
-import PinatasPage from './pages/PinatasPages';
+import PinatasPage from './pages/PinatasPage';
 import VajillasPage from "./pages/VajillasPage";
 import DisfracesPage from "./pages/DisfracesPage";
 import GlobosPage from "./pages/GlobosPage";

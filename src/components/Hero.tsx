@@ -69,7 +69,7 @@ const Hero = () => {
               size="lg" 
               variant="outline" 
               className="text-lg px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-              onClick={() => window.open('https://maps.google.com', '_blank')}
+              onClick={() => window.open('https://maps.app.goo.gl/Xyr8XDEEjB1mKhau5', '_blank')}
             >
               <MapPin className="w-5 h-5 mr-2" />
               Cómo llegar
@@ -80,8 +80,8 @@ const Hero = () => {
           <div className="bg-card/80 backdrop-blur-sm rounded-xl p-6 border border-border/50 max-w-md">
             <h3 className="font-semibold text-foreground mb-2">Horario de atención:</h3>
             <p className="text-muted-foreground text-sm mb-3">
-              Lunes a Sábado: 9:00 AM - 7:00 PM<br />
-              Domingos: 10:00 AM - 4:00 PM
+              Lunes a Domingo: 9:00 AM - 7:00 PM<br />
+              
             </p>
             <div className="flex items-center text-primary text-sm font-medium">
               <Star className="w-4 h-4 mr-1 fill-current" />

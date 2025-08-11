@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import logo from '@/assets/logo-horizontal-zenith.png';
 
-const Header = () => {
+const HeaderProduct = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -23,21 +23,7 @@ const Header = () => {
           />
         </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-6">
-            <a href="#inicio" className="text-foreground hover:text-primary transition-colors font-medium">
-              Inicio
-            </a>
-            <a href="#productos" className="text-foreground hover:text-primary transition-colors font-medium">
-              Productos
-            </a>
-            <a href="#nosotros" className="text-foreground hover:text-primary transition-colors font-medium">
-              Quiénes Somos
-            </a>
-            <a href="#contacto" className="text-foreground hover:text-primary transition-colors font-medium">
-              Contacto
-            </a>
-          </nav>
+          
 
           {/* Social Icons & CTA */}
           <div className="hidden md:flex items-center space-x-4">
@@ -153,4 +139,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderProduct;

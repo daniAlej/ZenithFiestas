@@ -53,9 +53,9 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold text-background mb-4">Contacto</h4>
+            <h4 className="text-lg font-semibold text-background mb-1">Contacto</h4>
             <div className="space-y-3">
-              <div className="flex items-start space-x-3">
+              <div className="flex items-start space-x-2">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="text-background/80 text-sm">
@@ -91,43 +91,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-semibold text-background mb-4">Enlaces rápidos</h4>
-            <div className="space-y-2">
-              <a 
-                href="#inicio" 
-                className="block text-background/80 hover:text-primary transition-colors text-sm"
-              >
-                Inicio
-              </a>
-              <a 
-                href="#productos" 
-                className="block text-background/80 hover:text-primary transition-colors text-sm"
-              >
-                Productos
-              </a>
-              <a 
-                href="#nosotros" 
-                className="block text-background/80 hover:text-primary transition-colors text-sm"
-              >
-                Quiénes somos
-              </a>
-              <a 
-                href="#contacto" 
-                className="block text-background/80 hover:text-primary transition-colors text-sm"
-              >
-                Contacto
-              </a>
-              <a 
-                href="https://wa.me/525551234567?text=Hola, me gustaría información sobre productos para fiestas" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="block text-background/80 hover:text-primary transition-colors text-sm"
-              >
-                WhatsApp
-              </a>
-            </div>
-          </div>
+          
         </div>
 
         {/* Bottom Section */}

@@ -28,7 +28,7 @@ const ProductsSection = () => {
     },
     {
       icon: UtensilsCrossed,
-      title: "Vajilla y accesorios",
+      title: "Accesorios",
       description: "Platos, vasos, servilletas desechables y accesorios coordinados para tu mesa.",
       color: "text-accent",
       bgColor: "bg-accent/10",
