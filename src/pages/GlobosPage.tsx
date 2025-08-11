@@ -7,6 +7,11 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import HeaderProduct from '@/components/HeaderProduct';
 import Footer from '@/components/Footer';
+// imports de imágenes (Vite las convierte a URL final)
+import NumRojo     from '@/assets/NumerosMetalicosRojo.jpg';
+import GlobosMetal from '@/assets/GlobosMetalicos.jpg';
+import NumRosa     from '@/assets/NumerosMetalicosRosa.jpg';
+
 
 interface ColorVariant {
   nombre: string;
@@ -66,9 +71,9 @@ const INITIAL_GLOBOS: Globo[] = [
     imagen: "/images/globos/numero-dorado.jpg",
     descripcion: "Globos metálicos con números del 0 al 9, perfectos para cumpleaños",
     colores: [
-      { nombre: "Rojo",   imagen: 'src/assets/NumerosMetalicosRojo.jpg' },
-      { nombre: "Plateado", imagen: 'src/assets/GlobosMetalicos.jpg' },
-      { nombre: "Rosa",     imagen: 'src/assets/NumerosMetalicosRosa.jpg' },
+      { nombre: "Rojo",     imagen: NumRojo },
+      { nombre: "Plateado", imagen: GlobosMetal },
+      { nombre: "Rosa",     imagen: NumRosa },
     ],
     colorSeleccionado: 0
   },
