@@ -51,14 +51,14 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: "Dirección",
-      content: "Av. Principal 123, Centro, Ciudad de México",
+      content: "Mariana de Jesús 427 y de los Romeros.",
       action: "https://maps.app.goo.gl/Xyr8XDEEjB1mKhau5",
       actionText: "Ver en mapa"
     },
     {
       icon: Clock,
       title: "Horario",
-      content: "Lun-Dom: 9:00-19:00",
+      content: "Lun-Dom: 9h00-19h00",
       action: null,
       actionText: null
     }
@@ -135,18 +135,16 @@ const ContactSection = () => {
               </Button>
             </div>
 
-            {/* Map placeholder */}
-            <div className="mt-8 h-64 bg-muted rounded-xl flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
-                <p className="text-muted-foreground">
-                  Mapa de ubicación
-                  <br />
-                  <span className="text-sm">
-                    Av. Principal 123, Centro
-                  </span>
-                </p>
-              </div>
+            {/* Mapa (Google Maps embed) */}
+            <div className="mt-8 rounded-xl overflow-hidden bg-muted">
+              <iframe
+                title="Mapa de ubicación"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d997.4393603249922!2d-78.4592285!3d-0.3165159!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5bd0010dcfffd%3A0x513d21f4d4107c54!2sZenith!5e0!3m2!1ses!2sec!4v1755050832736!5m2!1ses!2sec"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-64 md:h-80 border-0"
+                allowFullScreen
+              />
             </div>
           </div>
 

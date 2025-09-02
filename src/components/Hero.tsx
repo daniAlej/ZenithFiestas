@@ -78,14 +78,13 @@ const Hero = () => {
 
           {/* Store info */}
           <div className="bg-card/80 backdrop-blur-sm rounded-xl p-6 border border-border/50 max-w-md">
-            <h3 className="font-semibold text-foreground mb-2">Horario de atención:</h3>
+            <h2 className="font-semibold text-foreground mb-2">Horario de atención:</h2>
             <p className="text-muted-foreground text-sm mb-3">
-              Lunes a Domingo: 9:00 AM - 7:00 PM<br />
+               9h00 - 19h00<br />
               
             </p>
             <div className="flex items-center text-primary text-sm font-medium">
-              <Star className="w-4 h-4 mr-1 fill-current" />
-              Más de 5 años haciendo fiestas únicas
+              
             </div>
           </div>
         </div>

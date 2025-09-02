@@ -1,5 +1,5 @@
 import { Heart, MapPin, Users, Clock } from 'lucide-react';
-import storeInteriorImg from '@/assets/store-interior.jpg';
+import storeInteriorImg from '@/assets/Local_equilibrada1.webp';
 
 const WhyChooseUs = () => {
   const reasons = [
@@ -36,8 +36,8 @@ const WhyChooseUs = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Más de 5 años transformando momentos especiales en celebraciones 
-              inolvidables. Somos tu aliado perfecto para crear la fiesta de tus sueños.
+            Porque decoramos con amor para todos, creando momentos inolvidables. 
+            Somos tu aliado perfecto para crear la fiesta de tus sueños.
             </p>
 
             <div className="space-y-6">
@@ -68,12 +68,12 @@ const WhyChooseUs = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-8 mt-12 pt-8 border-t border-border/50">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">500+</div>
-                <div className="text-sm text-muted-foreground">Fiestas realizadas</div>
+                <div className="text-3xl font-bold text-primary mb-2">200+</div>
+                <div className="text-sm text-muted-foreground">productos disponibles</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-secondary mb-2">5+</div>
-                <div className="text-sm text-muted-foreground">Años de experiencia</div>
+                <div className="text-3xl font-bold text-secondary mb-2">La mejor calidad</div>
+                <div className="text-sm text-muted-foreground">Atención personalizada</div>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ const WhyChooseUs = () => {
                 </p>
                 <div className="flex items-center text-primary text-sm font-medium">
                   <MapPin className="w-4 h-4 mr-1" />
-                  Centro de la ciudad
+                  Capelo
                 </div>
               </div>
             </div>

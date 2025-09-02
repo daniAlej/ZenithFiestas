@@ -10,6 +10,7 @@ import PinatasPage from './pages/PinatasPage';
 import VajillasPage from "./pages/VajillasPage";
 import DisfracesPage from "./pages/DisfracesPage";
 import GlobosPage from "./pages/GlobosPage";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <WhatsAppButton />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

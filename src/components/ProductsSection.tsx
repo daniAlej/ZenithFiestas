@@ -13,7 +13,7 @@ const ProductsSection = () => {
     {
       icon: PartyPopper,
       title: "Globos y decoración",
-      description: "Globos de helio, metálicos, temáticos y decoraciones para ambientar tu evento perfectamente.",
+      description: "Globos de latex de excelente calidad, metálicos, temáticos y decoraciones para ambientar tu evento perfecto.",
       color: "text-primary",
       bgColor: "bg-primary/10",
       route: '/globos'
@@ -21,7 +21,7 @@ const ProductsSection = () => {
     {
       icon: Gift,
       title: "Piñatas y temáticas",
-      description: "Piñatas artesanales, decoraciones temáticas de superhéroes, princesas y más.",
+      description: "Piñatas personalizadas, tradicionales en estrella, vacas locas, y más.",
       color: "text-secondary",
       bgColor: "bg-secondary/10",
       route: '/pinatas'   
@@ -29,7 +29,7 @@ const ProductsSection = () => {
     {
       icon: UtensilsCrossed,
       title: "Accesorios",
-      description: "Platos, vasos, servilletas desechables y accesorios coordinados para tu mesa.",
+      description: "Velas, platos, vasos, servilletas, cajitas sorpresas, manteles, bolsitas para piñata, cortinas, y más.",
       color: "text-accent",
       bgColor: "bg-accent/10",
       route: '/vajilla'
@@ -37,7 +37,7 @@ const ProductsSection = () => {
     {
       icon: Drama,
       title: "Disfraces y velas",
-      description: "Disfraces divertidos, máscaras, velas numéricas y de colores para completar la celebración.",
+      description: "Accesorios para disfraces, máscaras, antifaces para completar tu celebración.",
       color: "text-primary",
       bgColor: "bg-primary/10",
       route: '/disfraces'
@@ -50,7 +50,7 @@ const ProductsSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
-            Todo para tu <span className="text-gradient-party">celebración</span>
+            Todo para tu <span className="text-gradient-party"> fiesta ideal</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Descubre nuestra amplia variedad de productos para hacer de tu fiesta 
@@ -95,7 +95,7 @@ const ProductsSection = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end">
               <div className="p-6 text-white">
                 <h3 className="text-xl font-semibold mb-2">Globos premium</h3>
-                <p className="text-sm opacity-90">Helio de larga duración</p>
+                <p className="text-sm opacity-90">Los mejores globos de latex para fiestas</p>
               </div>
             </div>
           </div>
@@ -113,18 +113,6 @@ const ProductsSection = () => {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* CTA */}
-        <div className="text-center">
-          <Button 
-            size="lg" 
-            className="btn-festive text-lg px-8 py-6"
-            onClick={() => document.getElementById('contacto')?.scrollIntoView({ behavior: 'smooth' })}
-          >
-            Ver galería completa
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
         </div>
       </div>
     </section>

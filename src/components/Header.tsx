@@ -43,7 +43,7 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <a 
-                href="https://facebook.com/zenithpartystore" 
+                href="https://m.facebook.com/684010418137354/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"

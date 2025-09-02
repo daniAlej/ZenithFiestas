@@ -15,9 +15,8 @@ const Footer = () => {
             </div>
             
             <p className="text-background/80 mb-6 leading-relaxed">
-              Tu tienda de confianza para artículos y decoración de fiestas. 
-              Más de 5 años transformando momentos especiales en celebraciones 
-              inolvidables con la mejor calidad y atención personalizada.
+            Tu tienda de confianza de artículos y decoración de fiestas. 
+            Transformamos momentos especiales en celebraciones inolvidables con la mejor calidad y atención personalizada.
             </p>
 
             {/* Social Media */}
@@ -59,9 +58,8 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="text-background/80 text-sm">
-                    Av. Principal 123<br />
-                    Centro, Ciudad de México<br />
-                    C.P. 06000
+                  Mariana de Jesús 427 y de los Romeros.<br />
+                  Capelo 
                   </p>
                 </div>
               </div>
@@ -70,10 +68,10 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-primary flex-shrink-0" />
                 <div>
                   <a 
-                    href="tel:+525551234567"
+                    href="tel:0996272566"
                     className="text-background/80 hover:text-primary transition-colors text-sm"
                   >
-                    +52 (555) 123-4567
+                     0996272566
                   </a>
                 </div>
               </div>
@@ -82,8 +80,7 @@ const Footer = () => {
                 <Clock className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="text-background/80 text-sm">
-                    Lun-Sáb: 9:00 AM - 7:00 PM<br />
-                    Dom: 10:00 AM - 4:00 PM
+                  de 09h00 a 19h00
                   </p>
                 </div>
               </div>
